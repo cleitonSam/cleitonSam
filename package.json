@@ -17,16 +17,15 @@
     "url": "https://github.com/cleitonSam/cleitonSam/issues"
   },
   "homepage": "https://github.com/cleitonSam/cleitonSam#readme",
-  
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  
-},
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@rocketseat/commitlint-config": "^0.0.3",
+    "git-commit-msg-linter": "^4.5.0",
     "husky": "^8.0.3"
   }
 }
